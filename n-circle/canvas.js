@@ -1,5 +1,10 @@
 let canvas = document.querySelector('#canvas');
 
+window.addEventListener("resize", function () {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+});
+
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
